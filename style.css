@@ -1,0 +1,71 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+}
+
+/* Container for the form */
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+.form-container {
+  background-color: rgba(255, 255, 255,0); /* Transparent white background */
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+  border: 2px solid whitesmoke;
+}
+
+/* Form input styles */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(red, orange, pink, 1);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:salmon;
+}
+
+/* Error message styles */
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/* Links for navigation */
+a {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
